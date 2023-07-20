@@ -80,7 +80,7 @@ const Render = () => {
         <Scroll html className="w-full relative">
           {/* DOM contents in here will scroll along */}
           <div className="w-screen h-screen relative">
-            <h1 className="title text-[#cdcbca] absolute mx-auto top-[60vh] left-[50%] text-7xl sm:text-[8rem] md:text-[10rem] lg:text-[13rem] -translate-x-[52%] -translate-y-[50%]">
+            <h1 className="title text-[#cdcbca] absolute mx-auto top-[60vh] left-[50%] text-7xl sm:text-[8rem] md:text-[10rem] lg:text-[13rem] -translate-x-[50%] -translate-y-[50%]">
               PHANTOM
             </h1>
           </div>
@@ -120,7 +120,7 @@ const Render = () => {
           </h2>
 
           <Link href="https://www.pacorabanne.com/">
-            <button className="absolute top-[585vh] sm:top-[590vh] left-[50%] -translate-x-[45%] -translate-y-[50%]">
+            <button className="absolute top-[585vh] sm:top-[590vh] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               Buy now
             </button>
           </Link>
