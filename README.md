@@ -1,34 +1,129 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 3D Paco Rabanne Landing Page
+> A modern [Next.js](https://nextjs.org/) and [Three.js](https://threejs.org/) web application for creating a stunning 3D landing page for Paco Rabanne, built with React, GSAP, and Tailwind CSS.
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-First, run the development server:
+---
+
+## 📸 Preview
+
+<!-- Replace with an actual screenshot or GIF -->
+![Project Screenshot](./public/project-mockup.png)
+
+---
+
+## ✨ Features
+
+- **3D Model Rendering:** Renders a 3D model of a Paco Rabanne Fragrance.
+- **Scroll-based Animations:** The 3D model animates based on the user's scroll position.
+- **Responsive Design:** The layout is responsive and works on mobile devices.
+
+---
+
+## 🚀 Live Demo
+
+Check out the live version here:
+**[🔗 Live Project](https://paco-rabanne-landing.vercel.app/)**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/) `^13`
+- **UI Library:** [React](https://react.dev/) `^18`
+- **3D:** [Three.js](https://threejs.org/) `^0.148.0`, [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction) `^8.10.0`, [@react-three/drei](https://github.com/pmndrs/drei) `^9.52.3`
+- **Animation:** [GSAP](https://greensock.com/gsap/) `^3.11.4`
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) `^3.3.3`
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 📁 Project Structure
+
+```bash
+├─ app/                # Next.js App Router pages
+│  ├─ globals.css      # Global styles
+│  ├─ layout.js        # Root layout
+│  └─ page.js          # Main page
+├─ components/         # Reusable UI components
+│  ├─ index.js         # Component exports
+│  ├─ Render.jsx       # Renders the 3D scene
+│  └─ Robot.jsx        # 3D Robot component and animation
+├─ public/             # Static assets
+│  └─ models/          # 3D models
+└─ ...
+```
+
+---
+
+## ⚙️ Getting Started
+
+### ✅ Prerequisites
+
+* Node.js (v18.x or later)
+* npm / yarn / pnpm
+
+### 🧰 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jkvdev/Paco-Rabanne-Landing.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd ./Paco-Rabanne-Landing/
+   ```
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### 🔐 Environment Variables
+
+This project does not require any environment variables.
+
+### ▶️ Running the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💡 Key Learnings & Challenges
 
-## Learn More
+* Integrating Three.js with Next.js for 3D rendering in a React environment.
+* Creating smooth, scroll-based animations using GSAP.
+* Optimizing the loading and performance of 3D models for the web.
+* Ensuring a responsive design for a 3D-heavy application.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🗺️ Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* [ ] Add a loading screen while the 3D model is loading
+* [ ] Implement more complex animations and user interactions
+* [ ] Add more sections to the landing page
+* [ ] Implement different theme functionality with tailwind
+* [ ] Optimize performance for a wider range of devices
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+**Valentin Costea** – [Portfolio](https://jkvdev.com) – [jkv21contact@gmail.com](mailto:jkv21contact@gmail.com)
